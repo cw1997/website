@@ -6,7 +6,7 @@ import '../styles/components/primaryButton.scss'
 const PrimaryButton = ({ children, className, ...rest }) => {
   const combinationClassName = `PrimaryButton ${className}`
   return (
-    <Button color="primary" className={combinationClassName} rounded {...rest}>
+    <Button color="primary" className={combinationClassName} {...rest}>
       {children}
     </Button>
   )

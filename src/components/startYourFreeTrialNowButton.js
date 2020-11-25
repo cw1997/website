@@ -5,7 +5,11 @@ import PrimaryButton from './primaryButton'
 
 const StartYourFreeTrialNowButton = () => {
   return (
-    <PrimaryButton as={Link} to="/products/tidbcloud/trial">
+    <PrimaryButton
+      className="is-rounded"
+      as={Link}
+      to="/products/tidbcloud/trial"
+    >
       Start Your Free Trial Now
     </PrimaryButton>
   )

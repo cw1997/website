@@ -216,7 +216,7 @@ const Navbar = ({ showBanner }) => {
               <PrimaryButton
                 as={Link}
                 to={navbarItems.contactUs.href}
-                className="get-tidb"
+                className="get-tidb is-rounded"
                 outlined
               >
                 {navbarItems.contactUs.name}
