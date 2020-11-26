@@ -1,0 +1,49 @@
+@import '../../../common';
+
+.PingCAP-PublicPreview {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+
+  .PublicPreview {
+    max-width: 700px;
+    h1 {
+      font-size: $H1;
+      color: $B4;
+      text-align: center;
+    }
+    &-summary {
+      margin-top: 60px;
+      font-size: $P1;
+      color: $M3;
+      p {
+        margin-bottom: .5rem;
+      }
+    }
+    ul {
+      margin-top: 28px;
+      list-style-type: disc;
+      padding-left: 24px;
+      li {
+        margin-bottom: 24px;
+        font-size: $P1;
+        color: $M3;
+        a {
+          color: $B1;
+          text-decoration: underline;
+        }
+      }
+    }
+    &-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 60px;
+      button {
+        width: 210px;
+        height: 40px;
+        color: $M2;
+        background: $B1;
+      }
+    }
+  }
+}
