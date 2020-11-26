@@ -2,7 +2,7 @@
 
 import '../../../styles/pages/products/tidbCloud.scss'
 
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import React, { useEffect, useMemo, useState } from 'react'
 import {
   featuresData,
@@ -215,9 +215,14 @@ const TiDBCloudPage = ({ data }) => {
                 </h1>
                 <h2 className="title is-4">Fully-managed TiDB Service</h2>
                 <p className="paragraph">
-                  Bring everything great about TiDB to the cloud. TiDB Cloud
-                  lets you focus on your applications, not the complexities of
-                  your database.
+                  Our fully-managed TiDB Cloud is now in Public Preview and open
+                  to all developers. They are designed to test the functionality
+                  and collect feedback from our community on performance,
+                  usability and documentation. During our Public Preview,{' '}
+                  <Link to="/products/tidbcloud/public-preview">
+                    specific terms and conditions apply
+                  </Link>
+                  .
                 </p>
                 <div className="start-trial-button">
                   <StartYourFreeTrialNowButton />
